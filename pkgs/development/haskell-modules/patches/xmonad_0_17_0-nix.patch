@@ -2,10 +2,10 @@ diff --git a/src/XMonad/Core.hs b/src/XMonad/Core.hs
 index 46a0939..92af53d 100644
 --- a/src/XMonad/Core.hs
 +++ b/src/XMonad/Core.hs
-@@ -46,6 +46,7 @@ import Data.Traversable (for)
+@@ -50,6 +50,7 @@ import Data.Semigroup
+ import Data.Traversable (for)
  import Data.Time.Clock (UTCTime)
  import Data.Default.Class
- import Data.List (isInfixOf)
 +import System.Environment (lookupEnv)
  import System.FilePath
  import System.IO
